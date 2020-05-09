@@ -1,0 +1,1 @@
+python -c "exec(\"import requests\nfrom time import sleep\ni = 0\nwhile True:\n\tresponse = requests.get('http://localhost:8080')\n\tprint(i, response)\n\ti += 1\n\tsleep(0)\")"
